@@ -6,10 +6,12 @@
 
 ### Cara penggunaan
 
+
 1. **Clone Project**
 ```bash
 git clone https://github.com/fajarramadhann/Tugas.Ku.git
 ```
+
 
 2. **Buat Database**
 
@@ -23,6 +25,7 @@ buat tabel bernama `tbltodo` dengan isi `id` dan `list`
 
 `list` bertype `VARCHAR` dengan panjang nilai `400`
 
+
 3. **Edit config.php**
 
 Buka file `config.php`
@@ -35,4 +38,3 @@ $pass
 $dbname
 ```
 sesuai phpmyadmin mu
->>>>>>> 115ed1f (v1.1)

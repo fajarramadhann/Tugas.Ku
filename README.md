@@ -1,4 +1,6 @@
+<<<<<<< HEAD
 # Tugas.Ku
+=======
 
 ## Tugas.Ku
 
@@ -16,9 +18,21 @@ buka `http://localhost/phpmyadmin`
 Buat database MySql dengan nama `tugasku`.
 
 buat tabel bernama `tbltodo` dengan isi `id` dan `list`
+
 `id` bertype `INT` dan centang `Auto Increment/A.I`
+
 `list` bertype `VARCHAR` dengan panjang nilai `400`
 
 3. **Edit config.php**
 
 Buka file `config.php`
+
+ganti 
+```php
+$host
+$user
+$pass
+$dbname
+```
+sesuai phpmyadmin mu
+>>>>>>> 115ed1f (v1.1)
